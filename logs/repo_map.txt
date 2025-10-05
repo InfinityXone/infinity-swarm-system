@@ -133,8 +133,10 @@
 │   ├── guardian.log
 │   ├── hydrate_and_sync.log
 │   ├── repo_guard.log
+│   ├── repo_map.json
 │   ├── repo_map.txt
 │   ├── repo_snapshots
+│   │   └── repo_map_20251005T141155.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
@@ -196,4 +198,4 @@
 │   └── web_dashboard.py
 └── .sync.lock
 
-43 directories, 154 files
+43 directories, 156 files
