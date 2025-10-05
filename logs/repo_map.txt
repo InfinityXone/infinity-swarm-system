@@ -156,6 +156,7 @@
 │   ├── dashboard_runner.log
 │   ├── deploy.log
 │   ├── docs_bootstrap.log
+│   ├── frontend_env_autosync.log
 │   ├── frontend_setup.log
 │   ├── full_audit_20251005T134932Z.json
 │   ├── full_audit_20251005T134932Z.txt
@@ -164,6 +165,7 @@
 │   ├── gcp_full_audit_20251004_232807.json
 │   ├── guardian.log
 │   ├── hydrate_and_sync.log
+│   ├── repo_checksum_baseline.txt
 │   ├── repo_guard.log
 │   ├── repo_map.json
 │   ├── repo_map.txt
@@ -171,7 +173,8 @@
 │   │   ├── repo_map_20251005T141155.json
 │   │   ├── repo_map_20251005T141212.json
 │   │   ├── repo_map_20251005T142714.json
-│   │   └── repo_map_20251005T144215.json
+│   │   ├── repo_map_20251005T144215.json
+│   │   └── repo_map_20251005T145716.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
@@ -202,6 +205,7 @@
 │   ├── dashboard_runner.sh
 │   ├── deploy_all.sh
 │   ├── env_sanity_check.sh
+│   ├── frontend_env_autosync.sh
 │   ├── frontend_restructure.sh
 │   ├── full_cloud_sync.sh
 │   ├── full_recursive_repo_sync.sh
@@ -233,9 +237,10 @@
 │   ├── system_summary.sh
 │   ├── update_docs.sh
 │   ├── update_repo_index.sh
+│   ├── vault_backup_and_rotate.sh
 │   ├── vault_backup_to_cloud.sh
 │   ├── vault_system.py
 │   └── web_dashboard.py
 └── .sync.lock
 
-64 directories, 175 files
+64 directories, 180 files
