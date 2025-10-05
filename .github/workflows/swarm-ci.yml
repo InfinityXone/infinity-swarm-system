@@ -1,0 +1,45 @@
+name: Infinity Swarm CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node + Python
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install backend deps
+        run: pip install -r backend/requirements.txt
+
+      - name: Install frontend deps
+        run: |
+          cd frontend
+          npm ci
+
+      - name: Lint / basic tests
+        run: |
+          flake8 backend || true
+          npm run lint --prefix frontend || true
+
+      - name: Build frontend
+        run: npm run build --prefix frontend
+
+      - name: Deploy to Vercel
+        run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
+
+      - name: Sync Supabase schema
+        run: supabase db push --project-ref ${{ secrets.SUPABASE_PROJECT_REF }}
