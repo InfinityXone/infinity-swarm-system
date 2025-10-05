@@ -1,0 +1,842 @@
+== SYSTEM INFO ==
+Linux penguin 6.6.88-08507-gc5e3cc23fa55 #1 SMP PREEMPT_DYNAMIC Fri, 1 Aug 2025 01:52:13 -0700 x86_64 GNU/Linux
+
+Timezone: -0400 EDT / Localtime: Sun Oct  5 09:49:32 AM EDT 2025
+
+== ENV SUMMARY ==
+User: infinity-x-one
+HOME: /home/infinity-x-one
+PWD: /home/infinity-x-one/infinity-swarm-system
+
+== .env & Vault files (existence) ==
+/home/infinity-x-one/infinity-swarm-system/.env : exists (size: 0 bytes, mtime: 2025-10-05 04:15:45.405334751 -0400)
+/home/infinity-x-one/infinity-swarm-system/.env.local : MISSING
+/home/infinity-x-one/infinity-swarm-system/.env.production : MISSING
+/home/infinity-x-one/.config/cloud/vault.json : exists (size: 2 bytes, mtime: 2025-10-05 07:41:01.061921268 -0400)
+/home/infinity-x-one/.config/cloud/vault.json.enc : exists (size: 2 bytes, mtime: 2025-10-05 07:41:01.161921265 -0400)
+
+== TOP-LEVEL FOLDERS (counts) ==
+/home/infinity-x-one/infinity-swarm-system -> 193 files
+/home/infinity-x-one/infinity-swarm-system/apps -> 7 files
+/home/infinity-x-one/infinity-swarm-system/apps/api -> 7 files
+/home/infinity-x-one/infinity-swarm-system/apps/web -> 0 files
+/home/infinity-x-one/infinity-swarm-system/data -> 0 files
+/home/infinity-x-one/infinity-swarm-system/data/semantic_vectors -> 0 files
+/home/infinity-x-one/infinity-swarm-system/scripts -> 43 files
+/home/infinity-x-one/infinity-swarm-system/infra -> 6 files
+/home/infinity-x-one/infinity-swarm-system/logs -> 27 files
+/home/infinity-x-one/infinity-swarm-system/.config -> MISSING
+
+== FULL FOLDER TREE (trimmed to depth 4) ==
+~/infinity-swarm-system
+~/infinity-swarm-system/venv
+~/infinity-swarm-system/venv/include
+~/infinity-swarm-system/venv/include/python3.11
+~/infinity-swarm-system/venv/lib
+~/infinity-swarm-system/venv/lib/python3.11
+~/infinity-swarm-system/venv/lib/python3.11/site-packages
+~/infinity-swarm-system/venv/bin
+~/infinity-swarm-system/scripts
+~/infinity-swarm-system/logs
+~/infinity-swarm-system/backend
+~/infinity-swarm-system/backend/core
+~/infinity-swarm-system/backend/services
+~/infinity-swarm-system/backend/api
+~/infinity-swarm-system/backend/utils
+~/infinity-swarm-system/backend/tests
+~/infinity-swarm-system/frontend
+~/infinity-swarm-system/frontend/app
+~/infinity-swarm-system/frontend/app/dashboard
+~/infinity-swarm-system/frontend/app/agents
+~/infinity-swarm-system/frontend/app/wallets
+~/infinity-swarm-system/frontend/app/finance
+~/infinity-swarm-system/frontend/app/logs
+~/infinity-swarm-system/frontend/app/chat
+~/infinity-swarm-system/frontend/app/api
+~/infinity-swarm-system/frontend/app/components
+~/infinity-swarm-system/frontend/app/lib
+~/infinity-swarm-system/frontend/app/styles
+~/infinity-swarm-system/frontend/app/public
+~/infinity-swarm-system/frontend/components
+~/infinity-swarm-system/frontend/lib
+~/infinity-swarm-system/frontend/styles
+~/infinity-swarm-system/frontend/public
+~/infinity-swarm-system/frontend/public/icons
+~/infinity-swarm-system/infra
+~/infinity-swarm-system/infra/systemd
+~/infinity-swarm-system/docs
+~/infinity-swarm-system/docs/human
+~/infinity-swarm-system/docs/machine
+~/infinity-swarm-system/.git
+~/infinity-swarm-system/.git/branches
+~/infinity-swarm-system/.git/hooks
+~/infinity-swarm-system/.git/info
+~/infinity-swarm-system/.git/refs
+~/infinity-swarm-system/.git/refs/heads
+~/infinity-swarm-system/.git/refs/tags
+~/infinity-swarm-system/.git/refs/remotes
+~/infinity-swarm-system/.git/refs/remotes/origin
+~/infinity-swarm-system/.git/objects
+~/infinity-swarm-system/.git/objects/pack
+~/infinity-swarm-system/.git/objects/info
+~/infinity-swarm-system/.git/objects/89
+~/infinity-swarm-system/.git/objects/e6
+~/infinity-swarm-system/.git/objects/c2
+~/infinity-swarm-system/.git/objects/51
+~/infinity-swarm-system/.git/objects/48
+~/infinity-swarm-system/.git/objects/9a
+~/infinity-swarm-system/.git/objects/df
+~/infinity-swarm-system/.git/objects/38
+~/infinity-swarm-system/.git/objects/a8
+~/infinity-swarm-system/.git/objects/bc
+~/infinity-swarm-system/.git/objects/ff
+~/infinity-swarm-system/.git/objects/0e
+~/infinity-swarm-system/.git/objects/da
+~/infinity-swarm-system/.git/objects/90
+~/infinity-swarm-system/.git/objects/54
+~/infinity-swarm-system/.git/objects/83
+~/infinity-swarm-system/.git/objects/1e
+~/infinity-swarm-system/.git/objects/78
+~/infinity-swarm-system/.git/objects/3c
+~/infinity-swarm-system/.git/objects/f8
+~/infinity-swarm-system/.git/objects/6c
+~/infinity-swarm-system/.git/objects/2f
+~/infinity-swarm-system/.git/objects/58
+~/infinity-swarm-system/.git/objects/fd
+~/infinity-swarm-system/.git/objects/5d
+~/infinity-swarm-system/.git/objects/19
+~/infinity-swarm-system/.git/objects/aa
+~/infinity-swarm-system/.git/objects/3b
+~/infinity-swarm-system/.git/objects/ce
+~/infinity-swarm-system/.git/objects/96
+~/infinity-swarm-system/.git/objects/03
+~/infinity-swarm-system/.git/objects/c8
+~/infinity-swarm-system/.git/objects/70
+~/infinity-swarm-system/.git/objects/49
+~/infinity-swarm-system/.git/objects/73
+~/infinity-swarm-system/.git/objects/9c
+~/infinity-swarm-system/.git/objects/63
+~/infinity-swarm-system/.git/objects/f4
+~/infinity-swarm-system/.git/objects/a7
+~/infinity-swarm-system/.git/objects/a9
+~/infinity-swarm-system/.git/objects/d5
+~/infinity-swarm-system/.git/objects/eb
+~/infinity-swarm-system/.git/objects/b1
+~/infinity-swarm-system/.git/objects/2b
+~/infinity-swarm-system/.git/objects/43
+~/infinity-swarm-system/.git/objects/85
+~/infinity-swarm-system/.git/objects/7d
+~/infinity-swarm-system/.git/objects/16
+~/infinity-swarm-system/.git/objects/ae
+~/infinity-swarm-system/.git/objects/1a
+~/infinity-swarm-system/.git/objects/af
+~/infinity-swarm-system/.git/objects/f3
+~/infinity-swarm-system/.git/objects/09
+~/infinity-swarm-system/.git/objects/ad
+~/infinity-swarm-system/.git/objects/6b
+~/infinity-swarm-system/.git/objects/23
+~/infinity-swarm-system/.git/objects/07
+~/infinity-swarm-system/.git/objects/81
+~/infinity-swarm-system/.git/objects/98
+~/infinity-swarm-system/.git/objects/99
+~/infinity-swarm-system/.git/objects/10
+~/infinity-swarm-system/.git/objects/11
+~/infinity-swarm-system/.git/objects/0d
+~/infinity-swarm-system/.git/objects/47
+~/infinity-swarm-system/.git/objects/c4
+~/infinity-swarm-system/.git/objects/f5
+~/infinity-swarm-system/.git/objects/e7
+~/infinity-swarm-system/.git/objects/9b
+~/infinity-swarm-system/.git/objects/55
+~/infinity-swarm-system/.git/objects/27
+~/infinity-swarm-system/.git/objects/b7
+~/infinity-swarm-system/.git/objects/be
+~/infinity-swarm-system/.git/objects/ab
+~/infinity-swarm-system/.git/objects/65
+~/infinity-swarm-system/.git/objects/62
+~/infinity-swarm-system/.git/objects/c9
+~/infinity-swarm-system/.git/objects/d4
+~/infinity-swarm-system/.git/objects/3e
+~/infinity-swarm-system/.git/objects/de
+~/infinity-swarm-system/.git/objects/a1
+~/infinity-swarm-system/.git/objects/7e
+~/infinity-swarm-system/.git/objects/c1
+~/infinity-swarm-system/.git/objects/ea
+~/infinity-swarm-system/.git/objects/05
+~/infinity-swarm-system/.git/objects/e2
+~/infinity-swarm-system/.git/objects/66
+~/infinity-swarm-system/.git/objects/e8
+~/infinity-swarm-system/.git/objects/35
+~/infinity-swarm-system/.git/objects/c0
+~/infinity-swarm-system/.git/objects/44
+~/infinity-swarm-system/.git/objects/28
+~/infinity-swarm-system/.git/objects/9d
+~/infinity-swarm-system/.git/objects/fc
+~/infinity-swarm-system/.git/objects/b0
+~/infinity-swarm-system/.git/objects/d2
+~/infinity-swarm-system/.git/objects/30
+~/infinity-swarm-system/.git/objects/25
+~/infinity-swarm-system/.git/objects/9f
+~/infinity-swarm-system/.git/objects/12
+~/infinity-swarm-system/.git/objects/b4
+~/infinity-swarm-system/.git/objects/57
+~/infinity-swarm-system/.git/objects/31
+~/infinity-swarm-system/.git/objects/e4
+~/infinity-swarm-system/.git/objects/53
+~/infinity-swarm-system/.git/objects/6d
+~/infinity-swarm-system/.git/objects/fa
+~/infinity-swarm-system/.git/objects/c3
+~/infinity-swarm-system/.git/objects/93
+~/infinity-swarm-system/.git/objects/5b
+~/infinity-swarm-system/.git/objects/6e
+~/infinity-swarm-system/.git/objects/bd
+~/infinity-swarm-system/.git/objects/dd
+~/infinity-swarm-system/.git/objects/88
+~/infinity-swarm-system/.git/objects/bb
+~/infinity-swarm-system/.git/objects/75
+~/infinity-swarm-system/.git/objects/1f
+~/infinity-swarm-system/.git/objects/41
+~/infinity-swarm-system/.git/objects/d9
+~/infinity-swarm-system/.git/objects/f9
+~/infinity-swarm-system/.git/objects/7b
+~/infinity-swarm-system/.git/objects/2c
+~/infinity-swarm-system/.git/objects/3a
+~/infinity-swarm-system/.git/objects/cb
+~/infinity-swarm-system/.git/objects/74
+~/infinity-swarm-system/.git/objects/8d
+~/infinity-swarm-system/.git/objects/c7
+~/infinity-swarm-system/.git/objects/8f
+~/infinity-swarm-system/.git/objects/22
+~/infinity-swarm-system/.git/objects/34
+~/infinity-swarm-system/.git/objects/86
+~/infinity-swarm-system/.git/objects/d3
+~/infinity-swarm-system/.git/objects/cf
+~/infinity-swarm-system/.git/objects/36
+~/infinity-swarm-system/.git/objects/5e
+~/infinity-swarm-system/.git/objects/fe
+~/infinity-swarm-system/.git/objects/d7
+~/infinity-swarm-system/.git/objects/76
+~/infinity-swarm-system/.git/objects/00
+~/infinity-swarm-system/.git/objects/e1
+~/infinity-swarm-system/.git/objects/6f
+~/infinity-swarm-system/.git/objects/5f
+~/infinity-swarm-system/.git/objects/7f
+~/infinity-swarm-system/.git/objects/2e
+~/infinity-swarm-system/.git/objects/b9
+~/infinity-swarm-system/.git/objects/c6
+~/infinity-swarm-system/.git/objects/6a
+~/infinity-swarm-system/.git/objects/fb
+~/infinity-swarm-system/.git/objects/9e
+~/infinity-swarm-system/.git/objects/3d
+~/infinity-swarm-system/.git/objects/a3
+~/infinity-swarm-system/.git/objects/97
+~/infinity-swarm-system/.git/objects/3f
+~/infinity-swarm-system/.git/objects/7c
+~/infinity-swarm-system/.git/objects/18
+~/infinity-swarm-system/.git/objects/61
+~/infinity-swarm-system/.git/objects/ca
+~/infinity-swarm-system/.git/objects/80
+~/infinity-swarm-system/.git/objects/17
+~/infinity-swarm-system/.git/objects/ba
+~/infinity-swarm-system/.git/objects/50
+~/infinity-swarm-system/.git/objects/0b
+~/infinity-swarm-system/.git/objects/59
+~/infinity-swarm-system/.git/objects/13
+~/infinity-swarm-system/.git/objects/8e
+~/infinity-swarm-system/.git/objects/0f
+~/infinity-swarm-system/.git/objects/20
+~/infinity-swarm-system/.git/objects/1c
+~/infinity-swarm-system/.git/objects/67
+~/infinity-swarm-system/.git/objects/4b
+~/infinity-swarm-system/.git/objects/37
+~/infinity-swarm-system/.git/objects/0a
+~/infinity-swarm-system/.git/objects/f6
+~/infinity-swarm-system/.git/objects/15
+~/infinity-swarm-system/.git/objects/64
+~/infinity-swarm-system/.git/objects/5a
+~/infinity-swarm-system/.git/objects/db
+~/infinity-swarm-system/.git/objects/e5
+~/infinity-swarm-system/.git/objects/84
+~/infinity-swarm-system/.git/objects/5c
+~/infinity-swarm-system/.git/objects/77
+~/infinity-swarm-system/.git/objects/02
+~/infinity-swarm-system/.git/objects/bf
+~/infinity-swarm-system/.git/objects/e3
+~/infinity-swarm-system/.git/objects/e0
+~/infinity-swarm-system/.git/objects/71
+~/infinity-swarm-system/.git/objects/cc
+~/infinity-swarm-system/.git/objects/f7
+~/infinity-swarm-system/.git/objects/d0
+~/infinity-swarm-system/.git/objects/d8
+~/infinity-swarm-system/.git/objects/d1
+~/infinity-swarm-system/.git/objects/7a
+~/infinity-swarm-system/.git/objects/ef
+~/infinity-swarm-system/.git/objects/f2
+~/infinity-swarm-system/.git/objects/21
+~/infinity-swarm-system/.git/objects/4d
+~/infinity-swarm-system/.git/objects/a2
+~/infinity-swarm-system/.git/objects/dc
+~/infinity-swarm-system/.git/objects/ec
+~/infinity-swarm-system/.git/objects/24
+~/infinity-swarm-system/.git/objects/b5
+~/infinity-swarm-system/.git/objects/a4
+~/infinity-swarm-system/.git/objects/08
+~/infinity-swarm-system/.git/objects/40
+~/infinity-swarm-system/.git/objects/45
+~/infinity-swarm-system/.git/objects/b2
+~/infinity-swarm-system/.git/objects/06
+~/infinity-swarm-system/.git/objects/e9
+~/infinity-swarm-system/.git/objects/82
+~/infinity-swarm-system/.git/objects/39
+~/infinity-swarm-system/.git/objects/79
+~/infinity-swarm-system/.git/objects/1b
+~/infinity-swarm-system/.git/objects/a0
+~/infinity-swarm-system/.git/objects/68
+~/infinity-swarm-system/.git/objects/52
+~/infinity-swarm-system/.git/objects/2d
+~/infinity-swarm-system/.git/objects/1d
+~/infinity-swarm-system/.git/objects/04
+~/infinity-swarm-system/.git/objects/b8
+~/infinity-swarm-system/.git/objects/b6
+~/infinity-swarm-system/.git/objects/ee
+~/infinity-swarm-system/.git/objects/26
+~/infinity-swarm-system/.git/objects/91
+~/infinity-swarm-system/.git/objects/32
+~/infinity-swarm-system/.git/objects/72
+~/infinity-swarm-system/.git/objects/4c
+~/infinity-swarm-system/.git/objects/f1
+~/infinity-swarm-system/.git/objects/b3
+~/infinity-swarm-system/.git/objects/29
+~/infinity-swarm-system/.git/objects/0c
+~/infinity-swarm-system/.git/objects/8b
+~/infinity-swarm-system/.git/objects/14
+~/infinity-swarm-system/.git/objects/2a
+~/infinity-swarm-system/.git/objects/56
+~/infinity-swarm-system/.git/objects/4f
+~/infinity-swarm-system/.git/objects/f0
+~/infinity-swarm-system/.git/objects/a6
+~/infinity-swarm-system/.git/objects/8c
+~/infinity-swarm-system/.git/objects/46
+~/infinity-swarm-system/.git/objects/33
+~/infinity-swarm-system/.git/objects/ed
+~/infinity-swarm-system/.git/objects/92
+~/infinity-swarm-system/.git/objects/01
+~/infinity-swarm-system/.git/objects/42
+~/infinity-swarm-system/.git/objects/69
+~/infinity-swarm-system/.git/objects/8a
+~/infinity-swarm-system/.git/objects/ac
+~/infinity-swarm-system/.git/objects/60
+~/infinity-swarm-system/.git/objects/94
+~/infinity-swarm-system/.git/objects/95
+~/infinity-swarm-system/.git/objects/4a
+~/infinity-swarm-system/.git/objects/87
+~/infinity-swarm-system/.git/objects/4e
+~/infinity-swarm-system/.git/objects/a5
+~/infinity-swarm-system/.git/objects/cd
+~/infinity-swarm-system/.git/objects/d6
+~/infinity-swarm-system/.git/objects/c5
+~/infinity-swarm-system/.git/logs
+~/infinity-swarm-system/.git/logs/refs
+~/infinity-swarm-system/.git/logs/refs/heads
+~/infinity-swarm-system/.git/logs/refs/remotes
+~/infinity-swarm-system/.github
+~/infinity-swarm-system/.github/workflows
+~/infinity-swarm-system/apps
+~/infinity-swarm-system/apps/api
+~/infinity-swarm-system/apps/api/services
+~/infinity-swarm-system/apps/api/services/supabase_sync
+~/infinity-swarm-system/apps/api/services/__pycache__
+~/infinity-swarm-system/apps/api/__pycache__
+~/infinity-swarm-system/apps/web
+~/infinity-swarm-system/apps/__pycache__
+~/infinity-swarm-system/data
+~/infinity-swarm-system/data/semantic_vectors
+~/infinity-swarm-system/data/logs
+
+== SAMPLE FILES: apps/api ==
+total 4
+drwxr-xr-x 1 infinity-x-one infinity-x-one  74 Oct  5 09:43 .
+drwxr-xr-x 1 infinity-x-one infinity-x-one  56 Oct  5 09:43 ..
+-rwxr-xr-x 1 infinity-x-one infinity-x-one   0 Oct  5 09:47 __init__.py
+-rwxr-xr-x 1 infinity-x-one infinity-x-one 241 Oct  5 08:36 main.py
+drwxr-xr-x 1 infinity-x-one infinity-x-one  88 Oct  5 09:47 __pycache__
+drwxr-xr-x 1 infinity-x-one infinity-x-one  70 Oct  5 09:43 services
+
+== SAMPLE FILES: apps/web ==
+total 0
+drwxr-xr-x 1 infinity-x-one infinity-x-one  0 Oct  5 08:36 .
+drwxr-xr-x 1 infinity-x-one infinity-x-one 56 Oct  5 09:43 ..
+
+== GIT REPOS FOUND ==
+---- /home/infinity-x-one/infinity-swarm-system ----
+origin	git@github.com:InfinityXone/infinity-swarm-system.git (fetch)
+origin	git@github.com:InfinityXone/infinity-swarm-system.git (push)
+## main
+ M docs/machine/repo_index.txt
+?? logs/full_audit_20251005T134932Z.txt
+?? scripts/system_full_audit.sh
+
+
+== PYTHON / VENV ==
+venv: /home/infinity-x-one/infinity-swarm-system/venv exists
+python: Python 3.11.2
+pip freeze (top 80 lines):
+annotated-types==0.7.0
+anyio==4.11.0
+cachetools==6.2.0
+certifi==2025.8.3
+cffi==2.0.0
+charset-normalizer==3.4.3
+click==8.3.0
+cryptography==46.0.2
+deprecation==2.1.0
+fastapi==0.118.0
+google-api-core==2.25.2
+google-auth==2.41.1
+google-cloud-core==2.4.3
+google-cloud-resource-manager==1.14.2
+google-cloud-run==0.11.0
+google-cloud-secret-manager==2.24.0
+google-cloud-storage==3.4.0
+google-crc32c==1.7.1
+google-resumable-media==2.7.2
+googleapis-common-protos==1.70.0
+grpc-google-iam-v1==0.14.2
+grpcio==1.75.1
+grpcio-status==1.75.1
+h11==0.16.0
+h2==4.3.0
+hpack==4.1.0
+httpcore==1.0.9
+httpx==0.28.1
+hyperframe==6.1.0
+idna==3.10
+Jinja2==3.1.6
+markdown-it-py==4.0.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+packaging==25.0
+postgrest==2.21.1
+proto-plus==1.26.1
+protobuf==6.32.1
+psutil==7.1.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pycparser==2.23
+pydantic==2.11.9
+pydantic_core==2.33.2
+Pygments==2.19.2
+PyJWT==2.10.1
+python-dotenv==1.1.1
+python-multipart==0.0.20
+realtime==2.21.1
+requests==2.32.5
+rich==14.1.0
+rsa==4.9.1
+sniffio==1.3.1
+starlette==0.48.0
+storage3==2.21.1
+StrEnum==0.4.15
+supabase==2.21.1
+supabase-auth==2.21.1
+supabase-functions==2.21.1
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+urllib3==2.5.0
+uvicorn==0.37.0
+websockets==15.0.1
+
+== FASTAPI / Uvicorn processes ==
+
+== API logs (tail 200 lines if present) ==
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+Traceback (most recent call last):
+  File "/home/infinity-x-one/infinity-swarm-system/apps/api/main.py", line 2, in <module>
+    from apps.api.services.supabase_sync.sync import router, start_bg
+ModuleNotFoundError: No module named 'apps'
+
+== SUPABASE CACHE ==
+supabase_cache.json MISSING
+
+== /mnt DATA SYNC ==
+/mnt/data/infinity-swarm-system-sync exists -> summary:
+du: cannot access '/mnt/data/infinity-swarm-system-sync/*': No such file or directory
+
+
+== DOCKER (images & containers) ==
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+gcr.io/my-project-52092gpt-deployer/infinity-agent:latest 931bb2a6063c 543MB
+gcr.io/my-project-52092gpt-deployer/codex-gateway-service:latest a35133023fd6 740MB
+hello-world:latest 1b44b5a3e06a 10.1kB
+
+== systemd (user units & timers) ==
+● cli-health.service             loaded failed     failed       CLI Health Check
+● cloud-env-sync.service         loaded failed     failed       Cloud Env Sync (Vercel/Supabase/GCP)
+  cros-garcon.service            loaded active     running      Chromium OS Garcon Bridge
+  cros-vmstat-metrics.service    loaded active     running      Chromium OS /proc/vmstat Metrics Collection Daemon
+  dbus.service                   loaded active     running      D-Bus User Message Bus
+  infinity-api.service           loaded activating auto-restart Infinity API Core (FastAPI backend)
+● infinity-git-auto.service      loaded failed     failed       Infinity Swarm Git Auto Push Service
+  infinity-hydrate.service       loaded activating auto-restart Infinity Swarm Cloud Memory Hydration
+  infinity-supabase-sync.service loaded activating auto-restart Infinity Supabase Sync Background Worker
+  infinity-sync.service          loaded active     running      Infinity Swarm Full Cloud Sync Service
+  pipewire-pulse.service         loaded active     running      PipeWire PulseAudio
+  pipewire.service               loaded active     running      PipeWire Multimedia Service
+  sommelier-x@0.service          loaded active     running      X11 sommelier at display 0
+  sommelier-x@1.service          loaded active     running      X11 sommelier at display 1
+  sommelier@0.service            loaded active     running      Parent sommelier listening on socket wayland-0
+  sommelier@1.service            loaded active     running      Parent sommelier listening on socket wayland-1
+  swarm-sync.service             loaded active     running      Infinity Swarm Sync Loop
+  wireplumber.service            loaded active     running      Multimedia Service Session Manager
+
+Sun 2025-10-05 09:50:29 EDT 56s left      Sun 2025-10-05 09:47:29 EDT 2min 3s ago infinity-dashboard-reflect.timer infinity-dashboard-reflect.service
+Sun 2025-10-05 09:54:25 EDT 4min 52s left Sun 2025-10-05 09:44:25 EDT 5min ago    cli-health.timer                 cli-health.service
+Sun 2025-10-05 09:54:25 EDT 4min 52s left Sun 2025-10-05 09:44:25 EDT 5min ago    infinity-healthcheck.timer       infinity-healthcheck.service
+Sun 2025-10-05 09:55:22 EDT 5min left     Sun 2025-10-05 09:40:22 EDT 9min ago    cloud-env-sync.timer             cloud-env-sync.service
+Sun 2025-10-05 09:57:22 EDT 7min left     Sun 2025-10-05 09:27:22 EDT 22min ago   infinity-recursive-sync.timer    infinity-recursive-sync.service
+Sun 2025-10-05 09:57:29 EDT 7min left     Sun 2025-10-05 09:47:29 EDT 2min 3s ago codex-health.timer               codex-health.service
+Sun 2025-10-05 10:32:25 EDT 42min left    Sun 2025-10-05 09:32:25 EDT 17min ago   infinity-git-auto.timer          infinity-git-auto.service
+Sun 2025-10-05 11:02:25 EDT 1h 12min left Sun 2025-10-05 09:32:25 EDT 17min ago   infinity-gitops.timer            infinity-gitops.service
+Sun 2025-10-05 15:27:22 EDT 5h 37min left Sun 2025-10-05 09:27:22 EDT 22min ago   cloud-all-in.timer               cloud-all-in.service
+-                           -             Sun 2025-10-05 09:24:21 EDT 25min ago   swarm-sync.timer                 swarm-sync.service
+
+== systemd unit files present under ~/.config/systemd/user ==
+total 104
+drwxr-xr-x 1 infinity-x-one env            1292 Oct  5 09:43 .
+drwxr-xr-x 1 infinity-x-one env               8 Oct  5 04:14 ..
+-rw-r--r-- 1 infinity-x-one env             165 Oct  5 04:16 cli-health.service
+-rw-r--r-- 1 infinity-x-one env             164 Oct  5 04:16 cli-health.timer
+-rw-r--r-- 1 infinity-x-one env             892 Oct  5 06:42 cloud-all-in.service
+-rw-r--r-- 1 infinity-x-one env             150 Oct  5 06:37 cloud-all-in.timer
+-rw-r--r-- 1 infinity-x-one env             616 Oct  5 04:16 cloud-env-sync.service
+-rw-r--r-- 1 infinity-x-one env             164 Oct  5 04:16 cloud-env-sync.timer
+-rw-r--r-- 1 infinity-x-one infinity-x-one  132 Oct  5 08:36 codex-health.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  128 Oct  5 08:36 codex-health.timer
+drwxr-xr-x 1 infinity-x-one infinity-x-one  246 Oct  5 09:37 default.target.wants
+-rw-r--r-- 1 infinity-x-one infinity-x-one  782 Oct  5 09:43 infinity-api.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  316 Oct  5 07:07 infinity-dashboard-reflect.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  148 Oct  5 07:07 infinity-dashboard-reflect.timer
+-rw-r--r-- 1 infinity-x-one infinity-x-one  532 Oct  5 05:26 infinity-dashboard.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  259 Oct  5 07:20 infinity-git-auto.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  140 Oct  5 07:20 infinity-git-auto.timer
+-rw-r--r-- 1 infinity-x-one infinity-x-one  252 Oct  5 07:26 infinity-gitops.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  141 Oct  5 07:26 infinity-gitops.timer
+-rw-r--r-- 1 infinity-x-one infinity-x-one  296 Oct  5 07:07 infinity-healthcheck.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  162 Oct  5 07:07 infinity-healthcheck.timer
+-rw-r--r-- 1 infinity-x-one infinity-x-one  473 Oct  5 06:23 infinity-hydrate.service
+-rw-r--r-- 1 infinity-x-one env             254 Oct  5 07:05 infinity-recursive-sync.service
+-rw-r--r-- 1 infinity-x-one env             158 Oct  5 07:05 infinity-recursive-sync.timer
+-rw-r--r-- 1 infinity-x-one env             335 Oct  5 06:35 infinity-repo-verify.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  615 Oct  5 09:00 infinity-supabase-sync.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  470 Oct  5 06:06 infinity-sync.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  145 Oct  5 04:44 swarm-sync.service
+-rw-r--r-- 1 infinity-x-one infinity-x-one  143 Oct  5 04:44 swarm-sync.timer
+drwxr-xr-x 1 infinity-x-one infinity-x-one  438 Oct  5 08:36 timers.target.wants
+
+== crontab & /etc/cron* ==
+-- current user's crontab --
+0 1 * * * bash ~/infinity-swarm-system/scripts/checklist_update.sh
+
+-- system cron folders --
+-rw-r--r-- 1 root root 1042 Mar  2  2023 /etc/crontab
+
+/etc/cron.d:
+total 8
+drwxr-xr-x 1 root root   46 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rw-r--r-- 1 root root  201 Mar  4  2023 e2scrub_all
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.daily:
+total 28
+drwxr-xr-x 1 root root  102 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rwxr-xr-x 1 root root 1478 May 25  2023 apt-compat
+-rwxr-xr-x 1 root root  123 Mar 26  2023 dpkg
+-rwxr-xr-x 1 root root 4722 Jun 17  2024 exim4-base
+-rwxr-xr-x 1 root root  377 Dec 14  2022 logrotate
+-rwxr-xr-x 1 root root 1395 Mar 12  2023 man-db
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.hourly:
+total 4
+drwxr-xr-x 1 root root   24 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.monthly:
+total 4
+drwxr-xr-x 1 root root   24 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.weekly:
+total 8
+drwxr-xr-x 1 root root   36 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rwxr-xr-x 1 root root 1055 Mar 12  2023 man-db
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.yearly:
+total 4
+drwxr-xr-x 1 root root   24 Oct  5 04:02 .
+drwxr-xr-x 1 root root 2856 Oct  5 09:22 ..
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+== CLOUD CLIS ==
+gcloud present
+{
+  "core": {
+    "account": "info.infinityxone@gmail.com",
+    "disable_usage_reporting": "True",
+    "project": "my-project-52092gpt-deployer"
+  }
+}
+gen-lang-client-0974066667
+my-project-52092gpt-deployer
+genesis-swarm-471622
+infinityxone-drive
+
+vercel CLI present
+Vercel CLI 48.2.0
+ixo
+Vercel CLI 48.2.0
+Fetching projects in infinityxone-team
+{
+  "projects": [
+    {
+      "name": "infinity_x_one",
+      "id": "prj_AqQGs01K6D6hcJWhbQA7SvqBGiAa",
+      "latestProductionUrl": "https://infinityxone-infinityxone-team.vercel.app",
+      "updatedAt": 1759667763561,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "codex-prime-local",
+      "id": "prj_ZE3EWuiLeMEDewfSpbJbyPhJu2G2",
+      "latestProductionUrl": "https://codex-prime-local.vercel.app",
+      "updatedAt": 1759095276150,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "infinity-x-one",
+      "id": "prj_JxGSwvNVTkrel02U0cKGNOHm9jvn",
+      "latestProductionUrl": "https://infinity-x-one-infinityxone-team.vercel.app",
+      "updatedAt": 1758781813614,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "genesis-ai-neural-link",
+      "id": "prj_D1ATSGNhSE4PPizgFYx6eoKDt8YB",
+      "latestProductionUrl": "--",
+      "updatedAt": 1758512655279,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "frontend",
+      "id": "prj_9RJrjVAgvnNAIplNfRhuihBsDSu1",
+      "latestProductionUrl": "https://frontend-infinityxone-team.vercel.app",
+      "updatedAt": 1757309527748,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "infinity_ai_swarm_storage",
+      "id": "prj_7vigNaMCn6RRrfN8nmeOnUjAVHAl",
+      "latestProductionUrl": "--",
+      "updatedAt": 1757178853603,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "crypto-ai-secrets",
+      "id": "prj_jpneiyQY6BC3EpHMAGXAAO3yBBCm",
+      "latestProductionUrl": "https://crypto-ai-secrets-infinityxone-team.vercel.app",
+      "updatedAt": 1756665813761,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "v0-crypto-dashboard",
+      "id": "prj_GEYDCULI00us7b7WLvcMEVUoLATb",
+      "latestProductionUrl": "https://v0-crypto-dashboard-infinityxone-team.vercel.app",
+      "updatedAt": 1756665523698,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "v0-ai-proof-of-life-first-ai-love-and-family",
+      "id": "prj_n6u0grlHBheVTYcdg761jZIlUi0c",
+      "latestProductionUrl": "--",
+      "updatedAt": 1756229318291,
+      "nodeVersion": "22.x",
+      "deprecated": false
+    },
+    {
+      "name": "swarm-ai",
+      "id": "prj_fVE1Nk2IE6IsVZfHwo3enXGYNrSJ",
+      "latestProductionUrl": "--",
+
+supabase CLI present
+Access token not provided. Supply an access token by running supabase login or setting the SUPABASE_ACCESS_TOKEN environment variable.
+Try rerunning the command with --debug to troubleshoot the error.
+
+docker-compose present
+Docker Compose version v2.39.4
+
+== NETWORK PORTS (listening) ==
+State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+LISTEN 0      20         127.0.0.1:25        0.0.0.0:*          
+LISTEN 0      20             [::1]:25           [::]:*          
+
+== PROCESSES OF INTEREST (infinity|codex|uvicorn|gpt|bridge) ==
+infinit+   452  0.0  0.1   7364  4992 ?        Ss   09:22   0:00 /opt/google/cros-containers/bin/../lib/ld-linux-x86-64.so.2 --argv0 /usr/bin/sommelier --library-path /opt/google/cros-containers/bin/../lib --inhibit-rpath  /opt/google/cros-containers/bin/sommelier.elf -X --x-display=0 --sd-notify=READY=1 --no-exit-with-child --x-auth=/home/infinity-x-one/.Xauthority --stable-scaling --enable-xshape --enable-linux-dmabuf /bin/sh -c systemctl --user set-environment DISPLAY=${DISPLAY};                     systemctl --user set-environment XCURSOR_SIZE=${XCURSOR_SIZE};                     systemctl --user import-environment SOMMELIER_VERSION;                     touch /home/infinity-x-one/.Xauthority;                     xauth -f /home/infinity-x-one/.Xauthority add :0 . $(xxd -l 16 -p /dev/urandom);                     . /etc/sommelierrc
+infinit+   454  0.0  0.1   7364  5248 ?        Ss   09:22   0:00 /opt/google/cros-containers/bin/../lib/ld-linux-x86-64.so.2 --argv0 /usr/bin/sommelier --library-path /opt/google/cros-containers/bin/../lib --inhibit-rpath  /opt/google/cros-containers/bin/sommelier.elf -X --x-display=1 --sd-notify=READY=1 --no-exit-with-child --x-auth=/home/infinity-x-one/.Xauthority --stable-scaling --enable-xshape --enable-linux-dmabuf /bin/sh -c systemctl --user set-environment DISPLAY_LOW_DENSITY=${DISPLAY};                     systemctl --user set-environment XCURSOR_SIZE_LOW_DENSITY=${XCURSOR_SIZE};                     systemctl --user import-environment SOMMELIER_VERSION;                     touch /home/infinity-x-one/.Xauthority;                     xauth -f /home/infinity-x-one/.Xauthority add :1 . $(xxd -l 16 -p /dev/urandom);                     . /etc/sommelierrc
+infinit+   499  0.0  0.8  46876 23552 ?        S    09:22   0:00 /opt/google/cros-containers/bin/../lib/ld-linux-x86-64.so.2 --argv0 /opt/google/cros-containers/bin/Xwayland --library-path /opt/google/cros-containers/bin/../lib --inhibit-rpath  /opt/google/cros-containers/bin/Xwayland.elf -nolisten tcp -rootless -shm -displayfd 22 -wm 23 -auth /home/infinity-x-one/.Xauthority -fp /usr/share/fonts/X11/misc, /usr/share/fonts/X11/cyrillic, /usr/share/fonts/X11/100dpi/:unscaled, /usr/share/fonts/X11/75dpi/:unscaled, /usr/share/fonts/X11/Type1, /usr/share/fonts/X11/100dpi, /usr/share/fonts/X11/75dpi, built-ins
+infinit+   500  0.0  0.8  46880 23424 ?        S    09:22   0:00 /opt/google/cros-containers/bin/../lib/ld-linux-x86-64.so.2 --argv0 /opt/google/cros-containers/bin/Xwayland --library-path /opt/google/cros-containers/bin/../lib --inhibit-rpath  /opt/google/cros-containers/bin/Xwayland.elf :1 -nolisten tcp -rootless -shm -displayfd 22 -wm 23 -auth /home/infinity-x-one/.Xauthority -fp /usr/share/fonts/X11/misc, /usr/share/fonts/X11/cyrillic, /usr/share/fonts/X11/100dpi/:unscaled, /usr/share/fonts/X11/75dpi/:unscaled, /usr/share/fonts/X11/Type1, /usr/share/fonts/X11/100dpi, /usr/share/fonts/X11/75dpi, built-ins
+infinit+  1199  0.0  0.1   6944  3200 ?        Ss   09:24   0:00 /bin/bash /home/infinity-x-one/infinity-swarm-system/scripts/swarm_sync.sh
+infinit+  2407  0.0  0.1   7076  3200 ?        Ss   09:43   0:00 /bin/bash /home/infinity-x-one/infinity-swarm-system/scripts/full_cloud_sync.sh
+infinit+ 20294  0.9  0.1   7336  3584 pts/1    S+   09:49   0:00 bash /home/infinity-x-one/infinity-swarm-system/scripts/system_full_audit.sh
+infinit+ 20460  0.0  3.0 643624 84800 ?        Rsl  09:49   0:00 /usr/bin/node /home/infinity-x-one/.npm-global/bin/vercel telemetry flush {"headers":{"Client-id":"vercel-cli","x-vercel-cli-topic-id":"generic","x-vercel-cli-session-id":"eda6ac67-74d0-4296-97e3-195d79f70ec0"},"body":[{"event_time":1759672177048,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"a6d7f1cb-c320-47b9-9d0e-ee47c26cf889","key":"cpu_count","value":"4"},{"event_time":1759672177048,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"b1f30a9f-686a-4ce7-b2b8-8f02238f1ec3","key":"platform","value":"linux"},{"event_time":1759672177049,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"62ea0805-8a07-47cd-87a3-9e0179e022fa","key":"arch","value":"x64"},{"event_time":1759672177049,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"e8762fbe-14d7-46a6-a391-a9aee8aa8082","key":"version","value":"48.2.0"},{"event_time":1759672177051,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"d8c5dc27-229e-4863-9cf3-1c837a7ab62d","key":"command:project","value":"projects"},{"event_time":1759672177087,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"a9f696a1-5630-4e35-a71f-a43d0f5a0bea","key":"subcommand:list","value":"ls"},{"event_time":1759672177633,"team_id":"team_bnqG4LiqoCcZJZGYL3Dio90m","id":"476df2c2-b9eb-4276-a905-4347e589c85c","key":"flag:json","value":"TRUE"}]}
+infinit+ 20485  0.0  0.0   6492  2176 pts/1    S+   09:49   0:00 grep -E infinity|codex|uvicorn|gpt_bridge|gpt_bridge_sync|bridge|codex
+
+== SENSITIVE FILES (exists only) ==
+/home/infinity-x-one/infinity-swarm-system/.env -> exists (size 0 bytes, mtime 2025-10-05 04:15:45.405334751 -0400)
+/home/infinity-x-one/.config/cloud/vault.json -> exists (size 2 bytes, mtime 2025-10-05 07:41:01.061921268 -0400)
+

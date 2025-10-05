@@ -50,32 +50,12 @@
       "files_present": 3,
       "files_expected": 1,
       "percent": 300
-    },
-    "infra": {
-      "files_present": 6,
-      "files_expected": 1,
-      "percent": 600
-    },
-    "scripts": {
-      "files_present": 42,
-      "files_expected": 1,
-      "percent": 4200
-    },
-    "docs": {
-      "files_present": 24,
-      "files_expected": 1,
-      "percent": 2400
-    },
-    "logs": {
-      "files_present": 26,
-      "files_expected": 0,
-      "percent": 0
     }
   },
-  "last_scan": "Sun Oct  5 09:39:22 AM EDT 2025",
+  "last_scan": "Sun Oct  5 09:54:22 AM EDT 2025",
   "progress": {
     "total_files": 5,
-    "present": 135,
-    "percent_complete": 2700
+    "present": 138,
+    "percent_complete": 2760
   }
 }

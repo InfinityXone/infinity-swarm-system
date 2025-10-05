@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-10-05T09:49:38-04:00",
+  "base_path": "/home/infinity-x-one/infinity-swarm-system",
+  "folders": {
+    "apps_api_exists": true,
+    "apps_web_exists": true,
+    "data_exists": true,
+    "semantic_vectors_count": 0
+  },
+  "git_repos_scanned": 1,
+  "venv_present": true,
+  "supabase_cache_present": false,
+  "infinity_api_service_status": "enabled / activating
+not-active",
+  "codex_health_timer_status": "enabled / active",
+  "mnt_sync_path": "/mnt/data/infinity-swarm-system-sync",
+  "docker_present": true,
+  "gcloud_present": true,
+  "vercel_present": true,
+  "supabase_cli_present": true
+}
