@@ -57,9 +57,9 @@
       "percent": 600
     },
     "scripts": {
-      "files_present": 43,
+      "files_present": 46,
       "files_expected": 1,
-      "percent": 4300
+      "percent": 4600
     },
     "docs": {
       "files_present": 24,
@@ -67,15 +67,15 @@
       "percent": 2400
     },
     "logs": {
-      "files_present": 28,
+      "files_present": 33,
       "files_expected": 0,
       "percent": 0
     }
   },
-  "last_scan": "Sun Oct  5 10:09:22 AM EDT 2025",
+  "last_scan": "Sun Oct  5 10:24:23 AM EDT 2025",
   "progress": {
     "total_files": 5,
-    "present": 141,
-    "percent_complete": 2820
+    "present": 149,
+    "percent_complete": 2980
   }
 }
