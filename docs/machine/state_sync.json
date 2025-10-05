@@ -5,5 +5,5 @@
     "hint": "Perhaps you meant the table 'public.proposals'",
     "message": "Could not find the table 'public.projects' in the schema cache"
   },
-  "timestamp": 1759673261.75033
+  "timestamp": 1759673562.627062
 }
