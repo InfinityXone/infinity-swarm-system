@@ -4,11 +4,18 @@
 │   │   ├── __init__.py
 │   │   ├── main.py
 │   │   └── services
+│   │       ├── agents
+│   │       ├── fin_synapse
+│   │       │   └── __init__.py
+│   │       ├── gateway
 │   │       ├── __init__.py
+│   │       ├── rosetta_memory
+│   │       │   └── memory.py
 │   │       └── supabase_sync
 │   │           └── sync.py
 │   ├── __init__.py
 │   └── web
+│       └── package.json
 ├── backend
 │   ├── api
 │   │   ├── atlas.py
@@ -136,10 +143,12 @@
 │   ├── repo_map.json
 │   ├── repo_map.txt
 │   ├── repo_snapshots
-│   │   └── repo_map_20251005T141155.json
+│   │   ├── repo_map_20251005T141155.json
+│   │   └── repo_map_20251005T141212.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
+│   ├── super_stack_20251005T141510Z.log
 │   ├── swarm_sync.log
 │   ├── sync.log
 │   ├── system_bootstrap.log
@@ -158,6 +167,7 @@
 │   ├── bootstrap_v3_repo.sh
 │   ├── bulletproof_env_tool.sh
 │   ├── checklist_update.sh
+│   ├── codex_super_bash.sh
 │   ├── codex_v3_bootstrap.sh
 │   ├── cron_setup.sh
 │   ├── dashboard_autorun.sh
@@ -176,6 +186,7 @@
 │   ├── make_perfect_env.sh
 │   ├── no_kill_env_tool.sh
 │   ├── prod_env_setup.sh
+│   ├── recursive_growth_chain.sh
 │   ├── rehydrate.sh
 │   ├── repo_evolution_tracker.sh
 │   ├── repo_guard_watch.sh
@@ -198,4 +209,4 @@
 │   └── web_dashboard.py
 └── .sync.lock
 
-43 directories, 156 files
+47 directories, 163 files
