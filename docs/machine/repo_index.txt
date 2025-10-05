@@ -1,4 +1,4 @@
-# Repo Index — Sun Oct  5 09:59:31 AM EDT 2025
+# Repo Index — Sun Oct  5 10:02:31 AM EDT 2025
 apps/api/__init__.py
 apps/api/main.py
 apps/api/__pycache__/__init__.cpython-311.pyc
@@ -329,6 +329,7 @@ frontend/vercel.json
 .git/objects/0c/8d49db251ea9f4ae3efaf57336cb8788fc4158
 .git/objects/0c/9081b9cbd4b49d39d75427fd806e56c485a5fd
 .git/objects/0c/9319662c660ebfeeac3b3264c1c52740a8134a
+.git/objects/0c/a77c210b86ff82d08037c0a700a2a2f497970c
 .git/objects/0c/a96ddfb580b19413797f41e79f7abcecdd9d79
 .git/objects/0c/b868486edd9dda38f90c65f314597813128cf8
 .git/objects/0c/d789a44561ec6885a67b5cc975bdb0cf2f55c1
@@ -425,6 +426,7 @@ frontend/vercel.json
 .git/objects/10/fca3d6172f05b64b773204199b0d85f6647257
 .git/objects/11/1ada319221b613b1df0d8d353a4f6cec463583
 .git/objects/11/411ee953ce4601b11e8811efbb1de650a8856e
+.git/objects/11/581bea0d51bf89aabc7f70c11c101db5fff2e9
 .git/objects/11/5998dc2e869130ef90a5808495e128a9758120
 .git/objects/11/5fc823d36ee8f71424c2d6263583ee9bb50e5b
 .git/objects/11/a1c6be28ad008b7c083c229bb0df644ec58a0e
@@ -589,6 +591,7 @@ frontend/vercel.json
 .git/objects/19/0839905566f0c0e59c6119604887c326078115
 .git/objects/19/0bbf2e465f2008ffd4c3655258fdcea65957b6
 .git/objects/19/0d4dda8b68ddabfb5d31b641c41c95f928c6a7
+.git/objects/19/1e0af7b42c2643e0fd8febca001fb221e2d8fd
 .git/objects/19/4408b530151d43fd0ab6a42eb08548df3b3474
 .git/objects/19/4564e761ddae165b39ef6598877e2e3820af0a
 .git/objects/19/825fa2d9f55d9b693825986e3692202851906d
@@ -1457,6 +1460,7 @@ frontend/vercel.json
 .git/objects/44/7c92bf091be2dfc92388aa8d9b07c9a92be8e1
 .git/objects/44/939e1c6d40539eb8173bf1527db926c5a54658
 .git/objects/44/94c71e7e169ceec04294d7751f95b95b5c3761
+.git/objects/44/b31a0459df902178161a38d1ff244a6aa11851
 .git/objects/44/b52ce8b080da104333b9ec6997bcfcbf07af16
 .git/objects/44/bc6719f97a5c4adba4347931ddd9c7c51b2f90
 .git/objects/44/cc0efb086e82e562905efdfdd5e28580b56ecc
@@ -1550,6 +1554,7 @@ frontend/vercel.json
 .git/objects/4a/47b68eb0234668716c45950639497f8be97a99
 .git/objects/4a/512e908817524fa9b0c633b8b6d8ab5d0f0e1d
 .git/objects/4a/54850f144eabfe881f87a9d90280fd1fc195c3
+.git/objects/4a/644aeb5e05e03b439a7f0c207092daf832a53a
 .git/objects/4a/6ac0cab543c19d0db7c463cc04e3b1a73f4f97
 .git/objects/4a/7105d17916a7237f3df6e59d65ca82375f8803
 .git/objects/4a/7375a5ceb4b47894af47d1c1965476f95764ba
@@ -1706,6 +1711,7 @@ frontend/vercel.json
 .git/objects/53/29a87a5cd677bb7a1fa727944aaeda645608ab
 .git/objects/53/4126033c083203649022fa9b753a433f005556
 .git/objects/53/4eb5725e3a42e1979b8584bc28f45d5fe0293b
+.git/objects/53/66714681b94b3c73671ee5cb02861fdb115e14
 .git/objects/53/69157bc3caeda3ca53c5cdaaef28a94e47c522
 .git/objects/53/6a8f120215bf5469a18a8032d1dca874a762e7
 .git/objects/53/6aafffd2e88c9a5a4b6b4ff9d6cd42872a2162
@@ -2356,6 +2362,7 @@ frontend/vercel.json
 .git/objects/76/a260e5083120032507e992d80d26a9b14099d0
 .git/objects/76/a469b706763241f3f5569767c45365508d6028
 .git/objects/76/af11fe909f47e276b52da90983f02f62d3c4ac
+.git/objects/76/c71675df1967008da06ece9f34d85886f82776
 .git/objects/76/d8ffbcaf57e53609b6a9c49107e41e8cc9a893
 .git/objects/76/da92a19eace66c9f8b8b3aaec28558f73b8f0e
 .git/objects/76/e6f199c0042cec6500f53c062ff9ea1033e79d
@@ -2678,6 +2685,7 @@ frontend/vercel.json
 .git/objects/88/03d98fef147fb07885efbb8311e531788f7926
 .git/objects/88/2dd117b662a79637d6598a1ca5ed224de4446b
 .git/objects/88/2e36f5c1de19a8200000c216cf80119b37c96d
+.git/objects/88/2f7ace627a186b6549ecb894cc44e90b8d73d3
 .git/objects/88/31353800cc1ca0f10eb27f694ac30508b8254b
 .git/objects/88/641cf07d4edd3639a7fce4f8085c921c40f9c0
 .git/objects/88/67f0a5274077ffd1e7be6e1d6f01614ea9006f
@@ -2882,6 +2890,7 @@ frontend/vercel.json
 .git/objects/92/32b2178e79ed67ee33d67355a0a33df5318e9d
 .git/objects/92/39fcc9eb9967a3d303e7ebaafbcb7dae82baed
 .git/objects/92/3bf9606549f94273a41941fffba71ecbc433a5
+.git/objects/92/497d2e82b9af8f7b8cba120e48dc2f28c0d8a1
 .git/objects/92/56e386c55dec0f26ab9693e1702d218ca47053
 .git/objects/92/720b31621b0f6b4ac853179d886cb58e4e2f36
 .git/objects/92/79158d45c68a75b69ce9a0407ffda7deff5e1b
@@ -3183,6 +3192,7 @@ frontend/vercel.json
 .git/objects/a2/3a22af02349ea9b021be4d5b8245ad38356a2d
 .git/objects/a2/491fb38ef7c84b9bfd7a8f6de580762b9734c0
 .git/objects/a2/4de60061aa8bdd652b23e597c54de786de8489
+.git/objects/a2/4f9bec43d4944d51d5ec6d2dc54f9d3088e56d
 .git/objects/a2/62fcd791bc66a1ad0ee9389faed1c62c69e2be
 .git/objects/a2/6a1f07e3af47719866a306dcd9cea81e4b1e63
 .git/objects/a2/8196e337d48ca6cd28e183db44b77265196579
@@ -3484,6 +3494,7 @@ frontend/vercel.json
 .git/objects/b3/5564fbad87abd4ac1b2c20082c4716d853009d
 .git/objects/b3/621626cfd0264c3d82f9db02711bd17a23b994
 .git/objects/b3/63f55a0b071de6c5f377726be82dc2110e373c
+.git/objects/b3/767137077892ebdb8031e8d2e5e13d0b8786f7
 .git/objects/b3/93acf5a447cc79913be8d3420e0bdc64c77382
 .git/objects/b3/9b412382f898bad6dd0db3cf68fdac6df9e4ae
 .git/objects/b3/b0d0f380466db6b187bad7a96a561efe3dcafc
@@ -3665,6 +3676,7 @@ frontend/vercel.json
 .git/objects/bd/c5cab32c4e8b24211790c76d0b9eb3da15c18f
 .git/objects/bd/c8c0bb3e0f32f04300a9dd37b42202795be9bd
 .git/objects/bd/e86bb84d8c4fa4c804deb7c6363dfce026db24
+.git/objects/be/1ffdd9b4e31638e19a0207ec9e93b318c7ac55
 .git/objects/be/422c3e91e43bacf60ff3302688df0b28742333
 .git/objects/be/51991099dc66e5f4044f988cac72f8f8d53e05
 .git/objects/be/52c86df6429acc42199fa90e160a248171143f
@@ -3693,6 +3705,7 @@ frontend/vercel.json
 .git/objects/bf/b3c7f82155ba74b5d2b933c252d6ce80fd059d
 .git/objects/bf/b44abad750359b0cc0cae7b8dcc92da39552b6
 .git/objects/bf/b6dece97290fbc4effc1994581fb215e461df7
+.git/objects/bf/c94dfa35e887153dcb8b92948afd689d612e8d
 .git/objects/bf/caa211c650574ca70f78c8ddca480ddf405fb1
 .git/objects/bf/ceaea0f5df9acbbaf2572c103e7b9abfe1d71c
 .git/objects/bf/f763e9705f9b15ca99bbdac0b12287e4d8d129
@@ -3755,6 +3768,7 @@ frontend/vercel.json
 .git/objects/c3/792300031283f92d91cf221f8ce42e127acd11
 .git/objects/c3/7cae49ec77ad6ebb25568c1605f1fee5313cfb
 .git/objects/c3/ab410f29a196d9292965e732947653415362a4
+.git/objects/c3/b430ae9639f3c51d60d2e4de2a48aba6740fce
 .git/objects/c3/be706f5047d4c59a236c879f785415f81e31bd
 .git/objects/c3/beda4b2939d516fbe704c4fd4e7dd9715a52c5
 .git/objects/c3/c8f09006831a0645bbc62d2703c35df34352b4
@@ -3956,6 +3970,7 @@ frontend/vercel.json
 .git/objects/ce/6aab6ae17420f31224fc0004607aadd3085701
 .git/objects/ce/7516aeeba16a381b12930957e0a318479272da
 .git/objects/ce/7eedc7a0ce288bc330d338639368294b4e5309
+.git/objects/ce/b9627b4552c69676d8a55bf0b972cea28f037d
 .git/objects/ce/bbbf00295ec70f092f54581567b5bbcf17a5fb
 .git/objects/ce/bc687dacbf6f75febec55f172805bd4d0e38c9
 .git/objects/ce/d9ff449cdbbabcc6ce4b454d3b50e6af512b6e
@@ -4431,6 +4446,7 @@ frontend/vercel.json
 .git/objects/e8/d8f411ebc0664c81f03d2345142104bb4af5cd
 .git/objects/e8/db6931e916ded38bef2921d895b72a02514f6e
 .git/objects/e9/2569425ee922d6d4f4cd48a7bafb22f8967de4
+.git/objects/e9/38ea4e2a46601f25289baadcb016e954fd52fb
 .git/objects/e9/5b20b910f19bf504b6726a531231f083d73658
 .git/objects/e9/7f83ecf86c78b5cb6e1945c905417b107df910
 .git/objects/e9/928ee5f0efaa1a856e86543ad069af7198265d
@@ -4507,6 +4523,7 @@ frontend/vercel.json
 .git/objects/ed/0de0fe4dfbad9e3ab82477433805ea0b6650c6
 .git/objects/ed/0fdba5090f39aedc254d82ac1a7ddeb14ac0dd
 .git/objects/ed/1afaa751943ea8f8db57cfa9e9c0e4931369bd
+.git/objects/ed/4d2bee6e6825d2af01f8f06345a902351ff93b
 .git/objects/ed/537f6783fc781a404e85e4b328b0aab580dafa
 .git/objects/ed/5d28f7516bd5e356bccb410a96ba9ee2b47557
 .git/objects/ed/69f24ed355e849b54dd0c3c8374c760b4b34b8
@@ -4600,6 +4617,7 @@ frontend/vercel.json
 .git/objects/f2/2706822f3fa542f69810f8e497857d5be36a65
 .git/objects/f2/293605cf1b01dca72aad0a15c45b72ed5429a2
 .git/objects/f2/3e130423e1763386ce18cc4ed16c94b3a94606
+.git/objects/f2/4fbe36ed71b7174feee546314ab7c55d648807
 .git/objects/f2/68ca259b2959edf0dc1e24152853ca6b6072d1
 .git/objects/f2/6a815a41ee24f382986609609f20b25f421170
 .git/objects/f2/6bcf4d2de6eb136e31006ca3ab447d5e488adf
