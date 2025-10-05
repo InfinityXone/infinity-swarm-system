@@ -174,7 +174,8 @@
 │   │   ├── repo_map_20251005T141212.json
 │   │   ├── repo_map_20251005T142714.json
 │   │   ├── repo_map_20251005T144215.json
-│   │   └── repo_map_20251005T145716.json
+│   │   ├── repo_map_20251005T145716.json
+│   │   └── repo_map_20251005T151218.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
@@ -187,7 +188,8 @@
 │   ├── system_health.json
 │   ├── system_health.log
 │   ├── system_health_summary.txt
-│   └── vault_backup.log
+│   ├── vault_backup.log
+│   └── vault_rotation.log
 ├── Makefile
 ├── README.md
 ├── scripts
@@ -243,4 +245,4 @@
 │   └── web_dashboard.py
 └── .sync.lock
 
-64 directories, 180 files
+64 directories, 182 files
