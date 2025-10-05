@@ -2,7 +2,6 @@
 ├── apps
 │   ├── api
 │   │   ├── __init__.py
-│   │   ├── main.py
 │   │   └── services
 │   │       ├── agents
 │   │       ├── fin_synapse
@@ -15,7 +14,8 @@
 │   │           └── sync.py
 │   ├── __init__.py
 │   └── web
-│       └── package.json
+│       ├── package.json
+│       └── package-lock.json
 ├── backend
 │   ├── api
 │   │   ├── atlas.py
@@ -144,7 +144,8 @@
 │   ├── repo_map.txt
 │   ├── repo_snapshots
 │   │   ├── repo_map_20251005T141155.json
-│   │   └── repo_map_20251005T141212.json
+│   │   ├── repo_map_20251005T141212.json
+│   │   └── repo_map_20251005T142714.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
@@ -176,6 +177,7 @@
 │   ├── deploy_all.sh
 │   ├── env_sanity_check.sh
 │   ├── full_cloud_sync.sh
+│   ├── full_recursive_repo_sync.sh
 │   ├── full_recursive_sync.sh
 │   ├── generate_manifest.sh
 │   ├── git_auto_clean_push.sh
@@ -209,4 +211,4 @@
 │   └── web_dashboard.py
 └── .sync.lock
 
-47 directories, 163 files
+47 directories, 165 files
