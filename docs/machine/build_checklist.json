@@ -1,0 +1,81 @@
+{
+  "project": "Infinity Swarm System",
+  "generated": "$(date)",
+  "sections": {
+    "backend": [
+      37
+    ],
+    "frontend": [
+      2
+    ],
+    "infra": [
+      6
+    ],
+    "docs": [
+      21
+    ],
+    "scripts": [
+      12
+    ],
+    "logs": [],
+    "docs_human": [
+      "README.md",
+      "STRATEGY.md",
+      "BLUEPRINT.md",
+      "FOLDER_TREE.md",
+      "SCALE_PLAN.md",
+      "FINANCIAL_PLAN.md",
+      "CHECKLISTS.md",
+      "CONTRIBUTORS.md",
+      "CHANGELOG.md"
+    ],
+    "docs_machine": [
+      "manifest.yaml",
+      "env.sample",
+      "supabase_schema.json",
+      "vercel_config.json",
+      "gcp_service_accounts.json",
+      "api_endpoints.json",
+      "cron_manifest.json",
+      "metrics_spec.json"
+    ]
+  },
+  "status": {
+    "backend": {
+      "files_present": 37,
+      "files_expected": 1,
+      "percent": 3700
+    },
+    "frontend": {
+      "files_present": 3,
+      "files_expected": 1,
+      "percent": 300
+    },
+    "infra": {
+      "files_present": 6,
+      "files_expected": 1,
+      "percent": 600
+    },
+    "scripts": {
+      "files_present": 42,
+      "files_expected": 1,
+      "percent": 4200
+    },
+    "docs": {
+      "files_present": 24,
+      "files_expected": 1,
+      "percent": 2400
+    },
+    "logs": {
+      "files_present": 26,
+      "files_expected": 0,
+      "percent": 0
+    }
+  },
+  "last_scan": "Sun Oct  5 09:39:22 AM EDT 2025",
+  "progress": {
+    "total_files": 5,
+    "present": 138,
+    "percent_complete": 2760
+  }
+}

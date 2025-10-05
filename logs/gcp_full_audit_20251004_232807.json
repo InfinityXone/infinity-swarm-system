@@ -1,0 +1,59 @@
+{
+  "project_id": "my-project-52092gpt-deployer",
+  "region": "us-central1",
+  "cloud_run": [
+    {
+      "name": "infinity-agent",
+      "url": "https://infinity-agent-nsdj5qz7mq-uc.a.run.app",
+      "image": "gcr.io/my-project-52092gpt-deployer/infinity-agent",
+      "env_vars": {},
+      "revision": "projects/my-project-52092gpt-deployer/locations/us-central1/services/infinity-agent/revisions/infinity-agent-00001-7mh"
+    },
+    {
+      "name": "key-harvester",
+      "url": "",
+      "image": "gcr.io/my-project-52092gpt-deployer/key-harvester:latest",
+      "env_vars": {
+        "SUPABASE_URL": "https://xzxkyrdelmbqlcucmzpx.supabase.co",
+        "SUPABASE_SERVICE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh6eGt5cmRlbG1icWxjdWNtenB4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTE0MTE0NSwiZXhwIjoyMDcwNzE3MTQ1fQ.WwE58HIpKZ8O9a244yt79jNuSyThkYODGCPL7a7u2_w",
+        "AGENT_API_KEY": "f75561f2657b2046b29400b95826aac1"
+      },
+      "revision": ""
+    },
+    {
+      "name": "bridge-service",
+      "url": "",
+      "image": "gcr.io/my-project-52092gpt-deployer/bridge-service",
+      "env_vars": {
+        "SUPABASE_URL": "https://YOUR_PROJECT.supabase.co",
+        "SUPABASE_KEY": "YOUR_SERVICE_ROLE_KEY",
+        "AGENT_ONE_API_KEY": "098dad28f0cca0b17842e37f33d081422d1dbe11dbcbefd9e3c86068500754bb"
+      },
+      "revision": ""
+    },
+    {
+      "name": "codex-gateway",
+      "url": "https://codex-gateway-nsdj5qz7mq-uc.a.run.app",
+      "image": "gcr.io/my-project-52092gpt-deployer/codex-gateway-service:latest",
+      "env_vars": {
+        "SUPABASE_URL": "https://xzxkyrdelmbqlcucmzpx.supabase.co",
+        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh6eGt5cmRlbG1icWxjdWNtenB4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTE0MTE0NSwiZXhwIjoyMDcwNzE3MTQ1fQ.WwE58HIpKZ8O9a244yt79jNuSyThkYODGCPL7a7u2_w",
+        "AGENT_ONE_API_KEY": "098dad28f0cca0b17842e37f33d081422d1dbe11dbcbefd9e3c86068500754bb"
+      },
+      "revision": "projects/my-project-52092gpt-deployer/locations/us-central1/services/codex-gateway/revisions/codex-gateway-00005-pmm"
+    },
+    {
+      "name": "agent-service",
+      "url": "",
+      "image": "gcr.io/my-project-52092gpt-deployer/agent-service",
+      "env_vars": {},
+      "revision": ""
+    }
+  ],
+  "buckets": [
+    "infinity-agent-artifacts",
+    "infinity-swarm-system",
+    "my-project-52092gpt-deployer_cloudbuild"
+  ],
+  "secrets": []
+}

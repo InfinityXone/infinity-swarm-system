@@ -1,0 +1,9 @@
+{
+  "supabase_projects": {
+    "code": "PGRST205",
+    "details": null,
+    "hint": "Perhaps you meant the table 'public.proposals'",
+    "message": "Could not find the table 'public.projects' in the schema cache"
+  },
+  "timestamp": 1759671756.819046
+}

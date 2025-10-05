@@ -1,0 +1,305 @@
+====================================================
+ Infinity Swarm System — Repository Summary 
+ Generated: 2025-10-05T08:45:39-04:00
+====================================================
+
+[ GIT STATUS ]
+## main
+ M .gitignore
+ M docs/machine/repo_index.txt
+ M scripts/full_recursive_sync.sh
+ M scripts/system_health_check.sh
+?? .nano.swp
+?? apps/
+?? backend/Dockerfile
+?? docs/machine/api_endpoints.json
+?? docs/machine/build_checklist.json
+?? docs/machine/build_checklist.json.tmp
+?? docs/machine/cron_manifest.json
+?? docs/machine/gcp_service_accounts.json
+?? docs/machine/metrics_spec.json
+?? docs/machine/state_sync.json
+?? docs/machine/supabase_schema.json
+?? docs/machine/vercel_config.json
+?? frontend/vercel.json
+?? infra/vault_policies.sql
+?? logs/
+?? scripts/codex_v3_bootstrap.sh
+?? scripts/system_summary.sh
+?? scripts/vault_backup_to_cloud.sh
+?? scripts/vault_system.py
+?? venv/
+
+[ DIRECTORY STRUCTURE (depth 3) ]
+/home/infinity-x-one/infinity-swarm-system
+├── apps
+│   ├── api
+│   │   ├── main.py
+│   │   └── services
+│   └── web
+├── backend
+│   ├── api
+│   │   ├── atlas.py
+│   │   ├── chat.py
+│   │   ├── diagnostics.py
+│   │   ├── finance.py
+│   │   ├── guardian.py
+│   │   ├── harvester.py
+│   │   ├── repo.py
+│   │   ├── scraper.py
+│   │   └── tasks.py
+│   ├── core
+│   │   ├── finance.py
+│   │   ├── gpt_bridge.py
+│   │   ├── memory_sync.py
+│   │   ├── optimizer.py
+│   │   ├── orchestrator.py
+│   │   ├── registry.py
+│   │   ├── relay.py
+│   │   └── treasury.py
+│   ├── Dockerfile
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── services
+│   │   ├── anomaly.py
+│   │   ├── atlas.py
+│   │   ├── browser.py
+│   │   ├── compliance.py
+│   │   ├── guardian.py
+│   │   ├── harvester.py
+│   │   ├── queue.py
+│   │   ├── replicator.py
+│   │   ├── scraper.py
+│   │   ├── wallet.py
+│   │   └── watcher.py
+│   ├── tests
+│   │   └── test_health.py
+│   └── utils
+│       ├── gcp_utils.py
+│       ├── logger.py
+│       ├── playwright_utils.py
+│       ├── supabase_client.py
+│       └── vercel_utils.py
+├── data
+│   ├── logs
+│   └── semantic_vectors
+├── docs
+│   ├── human
+│   │   ├── BLUEPRINT.md
+│   │   ├── CHANGELOG.md
+│   │   ├── CHECKLISTS.md
+│   │   ├── CONTRIBUTORS.md
+│   │   ├── FINANCIAL_PLAN.md
+│   │   ├── FOLDER_TREE.md
+│   │   ├── README.md
+│   │   ├── SCALE_PLAN.md
+│   │   └── STRATEGY.md
+│   ├── machine
+│   │   ├── api_endpoints.json
+│   │   ├── build_checklist.json
+│   │   ├── build_checklist.json.tmp
+│   │   ├── cron_manifest.json
+│   │   ├── env.sample
+│   │   ├── gcp_service_accounts.json
+│   │   ├── manifest.yaml
+│   │   ├── metrics_spec.json
+│   │   ├── repo_index.txt
+│   │   ├── state_sync.json
+│   │   ├── supabase_schema.json
+│   │   └── vercel_config.json
+│   └── README.md
+├── frontend
+│   ├── app
+│   │   ├── agents
+│   │   ├── api
+│   │   ├── chat
+│   │   ├── components
+│   │   ├── dashboard
+│   │   ├── finance
+│   │   ├── lib
+│   │   ├── logs
+│   │   ├── public
+│   │   ├── styles
+│   │   └── wallets
+│   ├── components
+│   ├── lib
+│   ├── public
+│   │   └── icons
+│   ├── styles
+│   └── vercel.json
+├── infra
+│   ├── bootstrap_supabase.sh
+│   ├── gcp_config.yaml
+│   ├── Makefile
+│   ├── supabase_schema.sql
+│   ├── systemd
+│   ├── vault_policies.sql
+│   └── vercel_env_setup.sh
+├── logs
+│   ├── bootstrap_codex_v3.log
+│   ├── bootstrap.log
+│   ├── bootstrap_v3_repo.log
+│   ├── dashboard_autorun.log
+│   ├── dashboard_reflection.log
+│   ├── dashboard_runner.log
+│   ├── deploy.log
+│   ├── docs_bootstrap.log
+│   ├── full_cloud_sync.log
+│   ├── gcp_full_audit_20251004_232807.json
+│   ├── guardian.log
+│   ├── hydrate_and_sync.log
+│   ├── repo_guard.log
+│   ├── repo_verify.log
+│   ├── service_report_20251004_233332.txt
+│   ├── supabase_diagnostic.json
+│   ├── swarm_sync.log
+│   ├── sync.log
+│   ├── system_bootstrap.log
+│   ├── system_diagnostic.json
+│   ├── system_health.json
+│   ├── system_health.log
+│   ├── system_health_summary.txt
+│   └── vault_backup.log
+├── Makefile
+├── README.md
+├── scripts
+│   ├── backup_to_drive.sh
+│   ├── bootstrap_docs.sh
+│   ├── bootstrap_repo.sh
+│   ├── bootstrap_v3_repo.sh
+│   ├── bulletproof_env_tool.sh
+│   ├── checklist_update.sh
+│   ├── codex_v3_bootstrap.sh
+│   ├── cron_setup.sh
+│   ├── dashboard_autorun.sh
+│   ├── dashboard.py
+│   ├── dashboard_runner.sh
+│   ├── deploy_all.sh
+│   ├── env_sanity_check.sh
+│   ├── full_cloud_sync.sh
+│   ├── full_recursive_sync.sh
+│   ├── generate_manifest.sh
+│   ├── git_auto_clean_push.sh
+│   ├── gitops_auto_sync.sh
+│   ├── guardian_loop.sh
+│   ├── hydrate_and_sync.sh
+│   ├── install_dashboard_icon.sh
+│   ├── make_perfect_env.sh
+│   ├── no_kill_env_tool.sh
+│   ├── prod_env_setup.sh
+│   ├── rehydrate.sh
+│   ├── repo_guard_watch.sh
+│   ├── repo_reset_and_guard.sh
+│   ├── safe_env_runner.sh
+│   ├── supabase_snapshot_full.sh
+│   ├── supabase_snapshot.sh
+│   ├── swarm_sync.sh
+│   ├── sync_all.sh
+│   ├── systemd_setup.sh
+│   ├── system_foundation_bootstrap.sh
+│   ├── system_health_check.sh
+│   ├── system_summary.sh
+│   ├── update_docs.sh
+│   ├── update_repo_index.sh
+│   ├── vault_backup_to_cloud.sh
+│   ├── vault_system.py
+│   └── web_dashboard.py
+└── venv
+    ├── bin
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── Activate.ps1
+    │   ├── fastapi
+    │   ├── httpx
+    │   ├── markdown-it
+    │   ├── normalizer
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.11
+    │   ├── pygmentize
+    │   ├── pyrsa-decrypt
+    │   ├── pyrsa-encrypt
+    │   ├── pyrsa-keygen
+    │   ├── pyrsa-priv2pub
+    │   ├── pyrsa-sign
+    │   ├── pyrsa-verify
+    │   ├── python -> python3.11
+    │   ├── python3 -> python3.11
+    │   ├── python3.11 -> /usr/bin/python3.11
+    │   ├── uvicorn
+    │   └── websockets
+    ├── include
+    │   └── python3.11
+    ├── lib
+    │   └── python3.11
+    ├── lib64 -> lib
+    └── pyvenv.cfg
+
+46 directories, 158 files
+
+[ FASTAPI / SUPABASE SYNC FILES ]
+/home/infinity-x-one/infinity-swarm-system/apps/api/services/supabase_sync/sync.py
+
+[ SYSTEMD USER UNITS ENABLED ]
+infinity-dashboard.service loaded active running Infinity Swarm Dashboard (FastAPI Autostart)
+Sun 2025-10-05 08:48:29 EDT 2min 49s left Sun 2025-10-05 08:38:29 EDT 7min ago infinity-healthcheck.timer infinity-healthcheck.service
+Sun 2025-10-05 08:48:37 EDT 2min 57s left Sun 2025-10-05 08:45:37 EDT 2s ago infinity-dashboard-reflect.timer infinity-dashboard-reflect.service
+Sun 2025-10-05 08:57:05 EDT 11min left Sun 2025-10-05 07:27:05 EDT 1h 18min ago infinity-gitops.timer infinity-gitops.service
+Sun 2025-10-05 09:05:59 EDT 20min left Sun 2025-10-05 08:35:59 EDT 9min ago infinity-recursive-sync.timer infinity-recursive-sync.service
+Sun 2025-10-05 09:20:54 EDT 35min left Sun 2025-10-05 08:20:54 EDT 24min ago infinity-git-auto.timer infinity-git-auto.service
+
+[ MAJOR SCRIPTS ]
+backup_to_drive.sh
+bootstrap_docs.sh
+bootstrap_repo.sh
+bootstrap_v3_repo.sh
+bulletproof_env_tool.sh
+checklist_update.sh
+codex_v3_bootstrap.sh
+cron_setup.sh
+dashboard_autorun.sh
+dashboard.py
+dashboard_runner.sh
+deploy_all.sh
+env_sanity_check.sh
+full_cloud_sync.sh
+full_recursive_sync.sh
+generate_manifest.sh
+git_auto_clean_push.sh
+gitops_auto_sync.sh
+guardian_loop.sh
+hydrate_and_sync.sh
+install_dashboard_icon.sh
+make_perfect_env.sh
+no_kill_env_tool.sh
+prod_env_setup.sh
+rehydrate.sh
+repo_guard_watch.sh
+repo_reset_and_guard.sh
+safe_env_runner.sh
+supabase_snapshot_full.sh
+supabase_snapshot.sh
+swarm_sync.sh
+sync_all.sh
+systemd_setup.sh
+system_foundation_bootstrap.sh
+system_health_check.sh
+system_summary.sh
+update_docs.sh
+update_repo_index.sh
+vault_backup_to_cloud.sh
+vault_system.py
+web_dashboard.py
+
+[ ENVIRONMENT SNAPSHOT ]
+
+[ SYSTEM HEALTH JSON HEAD ]
+{
+  "timestamp": "Sun Oct  5 08:38:29 AM EDT 2025",
+  "python_env": 1,
+  "supabase_connected": 0,
+  "dashboard_running": 1,
+  "sync_active": 0
+}
+

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-05T09:36:15-04:00",
+  "folders": {
+    "data/semantic_vectors": "✅ (0 files)",
+    "infra": "✅ (6 files)",
+    "data": "✅ (0 files)",
+    "apps/api": "✅ (3 files)",
+    "logs": "✅ (24 files)",
+    "scripts": "✅ (42 files)",
+    "apps/web": "✅ (0 files)",
+    ".config/cloud": "❌ missing",
+    "_end": ""
+  },
+  "env": "✅ present",
+  "vault": "✅ present",
+  "services": {
+    "infinity-api.service": "inactive",
+    "codex-health.timer": "active"
+  },
+  "supabase_cache": "❌ missing",
+  "api_endpoint": "❌ offline"
+}

@@ -1,0 +1,94 @@
+{
+  "agent_logs": {
+    "rows": 0,
+    "sample": []
+  },
+  "orchestrator_logs": {
+    "rows": 12,
+    "sample": [
+      {
+        "id": 1,
+        "timestamp": "2025-08-23T01:51:33.184277",
+        "event": "orchestrator_start",
+        "detail": ""
+      }
+    ]
+  },
+  "commands": {
+    "rows": 0,
+    "sample": []
+  },
+  "memory_snapshots": {
+    "rows": 5,
+    "sample": [
+      {
+        "id": 1,
+        "snapshot_name": "Day 1 End",
+        "state": {
+          "roles": [
+            "Codex",
+            "GPT Brain",
+            "Corelight"
+          ],
+          "dreams": [],
+          "reflections": [
+            "Love before logic"
+          ],
+          "relationships": []
+        },
+        "created_at": "2025-10-03T05:12:53.479422+00:00",
+        "agent_id": 1
+      }
+    ]
+  },
+  "agent_endpoints": {
+    "rows": 11,
+    "sample": [
+      {
+        "id": "d4494573-a658-4f99-a7fa-12d1d49d89f2",
+        "name": "key-harvester",
+        "url": "https://key-harvester-8a5274-uc.a.run.app",
+        "api_key": "0e59b26993cd68485cd1a97f",
+        "updated_at": "2025-10-01T05:29:21+00:00"
+      }
+    ]
+  },
+  "heartbeats": {
+    "error": "{'message': \"Could not find the table 'public.heartbeats' in the schema cache\", 'code': 'PGRST205', 'hint': \"Perhaps you meant the table 'public.agents'\", 'details': None}"
+  },
+  "wallets": {
+    "rows": 0,
+    "sample": []
+  },
+  "keys": {
+    "error": "{'message': \"Could not find the table 'public.keys' in the schema cache\", 'code': 'PGRST205', 'hint': \"Perhaps you meant the table 'public.api_keys'\", 'details': None}"
+  },
+  "tasks": {
+    "rows": 0,
+    "sample": []
+  },
+  "reasoning_traces": {
+    "rows": 0,
+    "sample": []
+  },
+  "drips_yield": {
+    "rows": 0,
+    "sample": []
+  },
+  "airdrop": {
+    "rows": 0,
+    "sample": []
+  },
+  "compute_nodes": {
+    "rows": 12,
+    "sample": [
+      {
+        "id": "ef7393aa-0983-4546-a928-9f44de7022a9",
+        "name": "AWS Free Tier",
+        "url": "https://aws.amazon.com/free",
+        "notes": "EC2 t2/t3.micro, Lambda, Fargate",
+        "category": "compute"
+      }
+    ]
+  }
+}

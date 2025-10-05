@@ -1,0 +1,11 @@
+{
+"timestamp": "2025-10-05 08:28:28",
+"python_env_ok": 1,
+"dashboard_running": 1,
+"supabase_connected": 1,
+"git_ok": 1,
+"services": {
+"infinity-dashboard-reflect.timer": "running",
+"infinity-dashboard.service": "running",
+"infinity-healthcheck.timer": "running"
+}}
