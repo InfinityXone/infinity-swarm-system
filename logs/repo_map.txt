@@ -12,10 +12,7 @@
 │   │       │   └── memory.py
 │   │       └── supabase_sync
 │   │           └── sync.py
-│   ├── __init__.py
-│   └── web
-│       ├── package.json
-│       └── package-lock.json
+│   └── __init__.py
 ├── backend
 │   ├── api
 │   │   ├── atlas.py
@@ -104,6 +101,32 @@
 │   │   ├── styles
 │   │   └── wallets
 │   ├── components
+│   ├── infinity-x-swarm
+│   │   ├── app
+│   │   │   ├── agents
+│   │   │   ├── api
+│   │   │   ├── chat
+│   │   │   ├── dashboard
+│   │   │   ├── finance
+│   │   │   ├── logs
+│   │   │   ├── settings
+│   │   │   └── wallets
+│   │   ├── components
+│   │   ├── docs
+│   │   │   ├── blueprints
+│   │   │   │   └── DEVELOPER_BLUEPRINT.md
+│   │   │   ├── human
+│   │   │   │   └── README.md
+│   │   │   └── machine
+│   │   │       └── README.md
+│   │   ├── lib
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   ├── postcss.config.js
+│   │   ├── public
+│   │   ├── styles
+│   │   │   └── globals.css
+│   │   └── tailwind.config.js
 │   ├── lib
 │   ├── package.json
 │   ├── public
@@ -133,9 +156,11 @@
 │   ├── dashboard_runner.log
 │   ├── deploy.log
 │   ├── docs_bootstrap.log
+│   ├── frontend_setup.log
 │   ├── full_audit_20251005T134932Z.json
 │   ├── full_audit_20251005T134932Z.txt
 │   ├── full_cloud_sync.log
+│   ├── full_recursive_sync_20251005T144601Z.log
 │   ├── gcp_full_audit_20251004_232807.json
 │   ├── guardian.log
 │   ├── hydrate_and_sync.log
@@ -145,7 +170,8 @@
 │   ├── repo_snapshots
 │   │   ├── repo_map_20251005T141155.json
 │   │   ├── repo_map_20251005T141212.json
-│   │   └── repo_map_20251005T142714.json
+│   │   ├── repo_map_20251005T142714.json
+│   │   └── repo_map_20251005T144215.json
 │   ├── repo_verify.log
 │   ├── service_report_20251004_233332.txt
 │   ├── supabase_diagnostic.json
@@ -176,6 +202,7 @@
 │   ├── dashboard_runner.sh
 │   ├── deploy_all.sh
 │   ├── env_sanity_check.sh
+│   ├── frontend_restructure.sh
 │   ├── full_cloud_sync.sh
 │   ├── full_recursive_repo_sync.sh
 │   ├── full_recursive_sync.sh
@@ -211,4 +238,4 @@
 │   └── web_dashboard.py
 └── .sync.lock
 
-47 directories, 165 files
+64 directories, 175 files
