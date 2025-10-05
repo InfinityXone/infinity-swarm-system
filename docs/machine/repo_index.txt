@@ -1,4 +1,4 @@
-# Repo Index — Sun Oct  5 08:03:16 AM EDT 2025
+# Repo Index — Sun Oct  5 08:33:31 AM EDT 2025
 backend/api/atlas.py
 backend/api/chat.py
 backend/api/diagnostics.py
@@ -62,7 +62,6 @@ docs/machine/supabase_schema.json
 docs/machine/vercel_config.json
 docs/README.md
 .env
-frontend/package.json
 frontend/public/icons/infinity_eye.png
 frontend/vercel.json
 .git/COMMIT_EDITMSG
@@ -98,6 +97,7 @@ frontend/vercel.json
 .git/objects/1a/0389168bbfa1e9f84fd3de9d6e682870f8967f
 .git/objects/1e/15c989cf7b74f6b85e2608d4dddcf8c170e43d
 .git/objects/23/11d38e9094c5a1d5ae35102f379b1bb7b047ff
+.git/objects/27/6db47f627f5d844116e2c95139279f1f8ab897
 .git/objects/2b/6564ef70b9fca6775563cfc9d80f33619a8bc7
 .git/objects/2f/f9ba309dbccb623e284dec1ae09b32598136f0
 .git/objects/38/6b9a66b7f75b715ba875a296f714d2933dbac3
@@ -113,12 +113,15 @@ frontend/vercel.json
 .git/objects/55/410bbec2ce18f87a595b6d6bb0fa1cd05e5722
 .git/objects/58/d97a75b1daae682ef61652c7400ffe0610f9fc
 .git/objects/5d/ab6080a5536f73a527d48566b9422f25ad969e
+.git/objects/62/ece15c734349319e1357278e8b2d42d66db71c
 .git/objects/63/5cc2d56afffb9ac82af604435037cc3f1297a3
+.git/objects/65/892bc624cf49af29c0c77b25e2531c7b105b42
 .git/objects/6b/7a03f53d4de1e705698345f4af0a9c1fa73d1f
 .git/objects/6c/8affc1e3baabfeb2921567175e218707f3db13
 .git/objects/70/a9259d0e17765dfbf19d5df74c9a744dd857ce
 .git/objects/73/d1a590dccac2a4a554a10b5c585e92d74a8ffa
 .git/objects/78/09988468c373a5154148b9f1138c64316d8e51
+.git/objects/78/4815259a7df0563a321a2bda9a90b32077ed87
 .git/objects/78/acee87a1a4112dee30ea607c63c7f78855e76e
 .git/objects/7d/b9bd57bd9c033493eaa237f339e09eaec5ec5f
 .git/objects/81/763ea761ef5d9696041bd2f5c00d7f7a650b85
@@ -138,17 +141,23 @@ frontend/vercel.json
 .git/objects/a9/87abe128300e890ecf3d193e211a8ee3a7e104
 .git/objects/aa/8b07f89c5be1469a14ea59a4c9a6695e239579
 .git/objects/aa/fa31b32f3c26ef2412faa2a5826e3fcd97c1c9
+.git/objects/ab/45c88c16c988735828f7b83c05ec73268b9b6a
 .git/objects/ad/523159b3128ea02a24457de7a662ef81496a8a
 .git/objects/ae/2bac8ae5bc7c13534a584bc5adf39d2dee8de5
 .git/objects/af/405e7e01c4e1c34771c85aeb2006a043896168
 .git/objects/af/7118726e3f59ea2ea79dd28ace37168396d221
 .git/objects/af/8a33839486cfda153a922e7b6c0d929620d576
 .git/objects/b1/e7a3e9121a27f55872cd3b71753aa62c9dbc9d
+.git/objects/b7/1cae66a06173355b1982c47480436e371b89f8
 .git/objects/bc/0c7a25538f67808f1a5d6a8c1dc3dee605a9eb
+.git/objects/be/9fa6fda22f398b2f86921b4907e7978bf675c2
 .git/objects/c2/4936c14fc0c615b935beed125ec5857f6e2c74
+.git/objects/c2/7dcb4f858b4a396c2fab150a040b4d90c413c1
 .git/objects/c4/5c4e6555ea24df2b131166512fadd64016f8f9
 .git/objects/c8/ccff5c357f303274d6a36081c6486e18a0aae9
+.git/objects/c9/e67555f87bdc201aae18fd9486d5a4801221b8
 .git/objects/ce/7eedc7a0ce288bc330d338639368294b4e5309
+.git/objects/d4/7a31cd7d834fe92b6f9cb5fb1eca4f1ea8174e
 .git/objects/d5/40be961ef4c5233b541a3b1a08af2f1ab96740
 .git/objects/da/25a61bb4ea08aa674871d1c5a5c527f3936fa6
 .git/objects/da/8e238dda4ffd3d7a6bdf6e626d99e0b2cc6967
@@ -164,6 +173,7 @@ frontend/vercel.json
 .git/objects/f8/182dbe9c2d3c4d478fbc7de7b0e4c83da1a909
 .git/objects/fd/ed8a3cae9732c8f16cbf57dec9f9209ed9785c
 .git/objects/ff/d0ec6cba8eaaa6eff4eb952cbda422e82551f0
+.git/ORIG_HEAD
 .git/refs/heads/main
 infra/bootstrap_supabase.sh
 infra/gcp_config.yaml
