@@ -13,6 +13,18 @@ venv/
 env/
 ENV/
 
+# === Infinity Swarm Vault Exclusions ===
+/.vault/
+/vault.json
+~/.config/cloud/vault.json
+~/.config/cloud/vault.json.enc
+~/.config/cloud/vault.key
+~/.config/cloud/
+/mnt/data/infinity-swarm-system-sync/*
+!*.md
+!*.txt
+
+
 # --- Environment & Secrets ---
 *.env
 *.env.*

@@ -1,4 +1,4 @@
-# Repo Index — Sun Oct  5 07:33:01 AM EDT 2025
+# Repo Index — Sun Oct  5 08:03:16 AM EDT 2025
 backend/api/atlas.py
 backend/api/chat.py
 backend/api/diagnostics.py
@@ -110,6 +110,7 @@ frontend/vercel.json
 .git/objects/51/c87f36f13fa156c3bfba8d1496d43fded73418
 .git/objects/54/6267bc51ff626d9cf3fa62851caf84d765a8e4
 .git/objects/54/728c57ab07eaa1de6f09e91994540ac75b9c06
+.git/objects/55/410bbec2ce18f87a595b6d6bb0fa1cd05e5722
 .git/objects/58/d97a75b1daae682ef61652c7400ffe0610f9fc
 .git/objects/5d/ab6080a5536f73a527d48566b9422f25ad969e
 .git/objects/63/5cc2d56afffb9ac82af604435037cc3f1297a3
@@ -130,6 +131,7 @@ frontend/vercel.json
 .git/objects/98/e8ea013b589201a033a9591b9dea8e7aef2201
 .git/objects/99/b2b75373d7fcd8b2cd0e4592049128c3a8f5ae
 .git/objects/9a/ebbefe717f23f20b324e58eb7d9449e18f7ad7
+.git/objects/9b/04000ca6769d05c54a401afbd1388f43d47736
 .git/objects/9c/cc86860575c6d00b2f58902b60f19f695d02d8
 .git/objects/a7/3f8ffc8fd2ce59c89e02995eb8f7c648b7282d
 .git/objects/a8/e2baf6d01043188ab6e198d14ac85312dab949
@@ -149,13 +151,16 @@ frontend/vercel.json
 .git/objects/ce/7eedc7a0ce288bc330d338639368294b4e5309
 .git/objects/d5/40be961ef4c5233b541a3b1a08af2f1ab96740
 .git/objects/da/25a61bb4ea08aa674871d1c5a5c527f3936fa6
+.git/objects/da/8e238dda4ffd3d7a6bdf6e626d99e0b2cc6967
 .git/objects/da/8f7565e3a387e984b5e5985ddccc75f6d48a10
 .git/objects/df/2cbac7e26b29199cf4b646158ee1637c3c3ce4
 .git/objects/df/dedd332d051894e3750d38e476a9fc3865348b
 .git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/e7/475211e127423995c9de75f1b1361d5e20a453
 .git/objects/eb/54df2a4d7e347dc65f35b8d481d2cf688fc792
 .git/objects/f3/43e8ebdc87efbf30448c309212ccd85032a48b
 .git/objects/f4/f2aa84457d0fb7946e3f8542eb374962501c78
+.git/objects/f5/358e5822697bc5ef4318afc57b7cdd150c263b
 .git/objects/f8/182dbe9c2d3c4d478fbc7de7b0e4c83da1a909
 .git/objects/fd/ed8a3cae9732c8f16cbf57dec9f9209ed9785c
 .git/objects/ff/d0ec6cba8eaaa6eff4eb952cbda422e82551f0
@@ -196,6 +201,8 @@ scripts/rehydrate.sh
 scripts/repo_guard_watch.sh
 scripts/repo_reset_and_guard.sh
 scripts/safe_env_runner.sh
+scripts/supabase_snapshot_full.sh
+scripts/supabase_snapshot.sh
 scripts/swarm_sync.sh
 scripts/sync_all.sh
 scripts/systemd_setup.sh
@@ -203,4 +210,6 @@ scripts/system_foundation_bootstrap.sh
 scripts/system_health_check.sh
 scripts/update_docs.sh
 scripts/update_repo_index.sh
+scripts/vault_backup_to_cloud.sh
+scripts/vault_system.py
 scripts/web_dashboard.py
